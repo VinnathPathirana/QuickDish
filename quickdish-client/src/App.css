@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-/* body{
+body{
   font-family: "Inter", sans-serif;
   
 
-} */
+}
+
+.section-container{
+  @apply max-w-screen-2xl container mx-auto xl:px-24 px-4;
+
+}
