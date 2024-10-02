@@ -8,7 +8,10 @@ export const Main = () => {
   return (
     <div>
         <Navbar/>
+        <div className="min-h-screen">
         <Outlet/>
+        </div>
+        
         <Footer/>
         
     </div>

@@ -14,7 +14,7 @@ export const Footer = () => {
         </nav>
 
         <nav>
-          <h6 className="Useful links">Services</h6>
+          <h6 className="footer-title">Services</h6>
           <a className="link link-hover">About us</a>
           <a className="link link-hover">Events</a>
           <a className="link link-hover">Blogs</a>
@@ -37,7 +37,7 @@ export const Footer = () => {
       </footer>
 
       <hr />
-      <footer className="footer xl:px-24 py-2 px-4 text-base-content p-10">
+      <footer className="footer xl:px-24 py-2 px-4 text-base-content p-10  bg-slate-100" >
         <aside className="grid-flow-col items-center">
          
           <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
